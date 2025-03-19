@@ -1,19 +1,5 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline Global CSS</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-    <script>
-HTML JSResult Skip Results Iframe
-
+<script>
+    
 class Modal extends HTMLElement {
   constructor() {
     super();
@@ -51,15 +37,9 @@ class Modala extends Modal {
 
 customElements.define("b-modala", Modala);
 
+</script>
 
 
-Resources1× 0.5× 0.25×Rerun
-    </script>
-
-</head>
-<body>
-Result Skip Results Iframe
 <b-modal>Button</b-modal>
 <b-modala>Button</b-modala>
-</body>
-</html>
+
