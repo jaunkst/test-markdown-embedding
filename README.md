@@ -4,10 +4,8 @@ class Modal extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.shadowRoot.innerHTML +=
-      "<style>button{background:#CCC;border:none; padding:10px 15px; border-radius:3px;}button:hover{background:#BBB;}button:active{background:#999;}</style>";
-    this.shadowRoot.innerHTML +=
-      "<button>This button is a web component</button>";
+    this.shadowRoot.innerHTML += "<style>button{background:#CCC;border:none; padding:10px 15px; border-radius:3px;}button:hover{background:#BBB;}button:active{background:#999;}</style>";
+    this.shadowRoot.innerHTML += "<button>This button is a web component</button>";
   }
 
   connectedCallback() {
@@ -42,4 +40,3 @@ customElements.define("b-modala", Modala);
 
 <b-modal>Button</b-modal>
 <b-modala>Button</b-modala>
-
